@@ -1,0 +1,22 @@
+#date{
+    -fx-font-family: "Bodoni MT";
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+}
+
+#tbl{
+    -fx-font-family: "Bodoni MT";
+    -fx-font-size: 13;
+    -fx-font-weight: bold;
+}
+
+#cmb{
+    -fx-font-family: "Bodoni MT";
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+}
+#from{
+    -fx-background-color:#DCDCDC;
+}

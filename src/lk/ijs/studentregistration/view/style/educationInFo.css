@@ -1,0 +1,11 @@
+#txt{
+    -fx-font-family: "Bodoni MT";
+    -fx-font-size: 20;
+    -fx-border-radius: 20;
+    -fx-font-style: italic;
+
+}
+
+#form{
+    -fx-background-color: #DCDCDC;
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Reg" uuid="28c0ab66-b71a-429d-b212-2c5f929e8679">
+      <database-info product="MySQL" version="5.7.24-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.13 (Revision: 66459e9d39c8fd09767992bc592acd2053279be6)" family="MYSQL" exact-version="5.7.24">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:@,ijse</introspection-schemas>
+    </data-source>
+    <data-source name="ijse@localhost" uuid="78f474c0-23e1-4a98-8b87-c994297673ce">
+      <database-info product="MySQL" version="5.7.24-log" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.13 (Revision: 66459e9d39c8fd09767992bc592acd2053279be6)" family="MYSQL" exact-version="5.7.24">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:@</introspection-schemas>
+    </data-source>
+  </component>
+</project>

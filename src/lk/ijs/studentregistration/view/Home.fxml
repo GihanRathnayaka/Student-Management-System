@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="426.0" prefWidth="828.0" stylesheets="@style/home.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijs.studentregistration.controler.HomeControler">
+   <children>
+      <Label alignment="CENTER" prefHeight="98.0" prefWidth="854.0" style="-fx-background-color: green;" text="Student Registration System" textFill="#fbff00">
+         <font>
+            <Font name="Bodoni MT Bold" size="66.0" />
+         </font>
+      </Label>
+      <Separator layoutY="398.0" prefHeight="20.0" prefWidth="854.0" style="-fx-background-color: green;" stylesheets="@style/home.css" />
+      <Button fx:id="btnStudentRegistration" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="66.0" layoutY="135.0" mnemonicParsing="false" onAction="#btnStudentRegistration_OnAction" prefHeight="199.0" prefWidth="156.0" text="Student Registration">
+         <font>
+            <Font name="Bodoni MT Bold" size="14.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="144.0" fitWidth="121.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asset/Student.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnCourcesRegistration" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="231.0" layoutY="135.0" mnemonicParsing="false" onAction="#btnCourcesRegistration_OnAction" prefHeight="199.0" prefWidth="156.0" text="Cource Creation">
+         <font>
+            <Font name="Bodoni MT Bold" size="16.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="120.0" fitWidth="129.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asset/cources.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="btnBatchesRestration" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="397.0" layoutY="135.0" mnemonicParsing="false" onAction="#btnBatchesRestration_OnAction" prefHeight="199.0" prefWidth="156.0" text="Batch Creation">
+         <font>
+            <Font name="Bodoni MT Bold" size="16.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="147.0" fitWidth="130.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asset/batch.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="BtnStudentManagement" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="564.0" layoutY="135.0" mnemonicParsing="false" onAction="#BtnStudentManagement_OnAction" prefHeight="199.0" prefWidth="156.0" text="Manage Student">
+         <font>
+            <Font name="Bodoni MT Bold" size="16.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="162.0" fitWidth="136.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../asset/studentManage.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <JFXButton fx:id="btnExit" layoutX="743.0" layoutY="104.0" onAction="#btnExit_OnAction" prefHeight="31.0" prefWidth="81.0" style="-fx-background-color: red;" text="Exit" textFill="#f0ff00" />
+   </children>
+</AnchorPane>
